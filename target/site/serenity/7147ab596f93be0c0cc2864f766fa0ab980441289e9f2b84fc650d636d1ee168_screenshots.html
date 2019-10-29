@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Ejemplo de implementaciÃ³n de Cucumber con Serenity</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b5a836a920367a4b7b46dfdb5e305a45394fa108732cd32c12006938330e6436.html">FUNCTIONALITY - Send Email On The Gmail Page.</a></span>
+                > <span class="truncate-60"><a
+                    href="7147ab596f93be0c0cc2864f766fa0ab980441289e9f2b84fc650d636d1ee168.html">TEST TO BE PERFORMED - Send Email from the Gmail page. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2019 09:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">FUNCTIONALITY - Send Email On The Gmail Page. </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                AS an AccentureTesting@gmail.com user<br />
+I want to send an email.<br />
+TO expose an introduction to the automation of cucumber tests, and in pickle language.
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Open the browser on the Gmail page, and access with AccentureTesting2018 credentials
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="11e58a360361a6ec6cfb1df32dcb13b780bb545b3de0654fe7fc1bf5e89d79a8.html">Feature1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">TEST TO BE PERFORMED - Send Email from the Gmail page.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="158ea9ac48da8d9356d1b06b69ab1ca5cc5da99936e19a84fab2f0df5e90f138.png" title=" Given Given that Accenture Testing enters with AccentureTesting2018 and 123456Accenture" width="2400"/>
+                <img src="158ea9ac48da8d9356d1b06b69ab1ca5cc5da99936e19a84fab2f0df5e90f138.png" title=" Is the home page" width="2400"/>
+                <img src="158ea9ac48da8d9356d1b06b69ab1ca5cc5da99936e19a84fab2f0df5e90f138.png" title=" Enters credentials: AccentureTesting2018, 123456Accenture" width="2400"/>
+                <img src="e4480b63007522793eb5c5b25c087f4f7ec59ad5af0f5c8bd48e5b1150326f9d.png" title=" Enters credentials: AccentureTesting2018, 123456Accenture (completed)" width="2400"/>
+                <img src="e4480b63007522793eb5c5b25c087f4f7ec59ad5af0f5c8bd48e5b1150326f9d.png" title=" Given Given that Accenture Testing enters with AccentureTesting2018 and 123456Accenture (completed)" width="2400"/>
+                <img src="60d603818f6fd92097eea1709dc97c19de06e4363aa1585c48ce62958e3312f1.png" title=" When Accenture Testing wants to send a new email to danielcorrea1058@gmail.com with subject Automation of tests and body This message is generated automatically" width="2400"/>
+                <img src="60d603818f6fd92097eea1709dc97c19de06e4363aa1585c48ce62958e3312f1.png" title=" New email" width="2400"/>
+                <img src="60d603818f6fd92097eea1709dc97c19de06e4363aa1585c48ce62958e3312f1.png" title=" Write new email: danielcorrea1058@gmail.com, Automation of tests, This message is generated automatically" width="2400"/>
+                <img src="c7777704470c9b0a57b8e3a368098a74909b398882cde81ad78a6e1a7bf2191f.png" title=" Write new email: danielcorrea1058@gmail.com, Automation of tests, This message is generated automatically (completed)" width="2400"/>
+                <img src="c7777704470c9b0a57b8e3a368098a74909b398882cde81ad78a6e1a7bf2191f.png" title=" When Accenture Testing wants to send a new email to danielcorrea1058@gmail.com with subject Automation of tests and body This message is generated automatically (completed)" width="2400"/>
+                <img src="fe063a3ebe7f4b3438ab3be5a8a78b60f72af205775fe7c9461bc80cb8c6907c.png" title=" Then Accenture Testing expects to have sent your message to your friend with the subject Automation of tests" width="2400"/>
+                <img src="fe063a3ebe7f4b3438ab3be5a8a78b60f72af205775fe7c9461bc80cb8c6907c.png" title=" Emails sends" width="2400"/>
+                <img src="fe063a3ebe7f4b3438ab3be5a8a78b60f72af205775fe7c9461bc80cb8c6907c.png" title=" Check list emails: Automation of tests" width="2400"/>
+                <img src="9f18808df2c9f6e583cbe13d28ee6153c3ef2ca1ad6792fa443467f5fc7d881a.png" title=" Check list emails: Automation of tests (completed)" width="2400"/>
+                <img src="9f18808df2c9f6e583cbe13d28ee6153c3ef2ca1ad6792fa443467f5fc7d881a.png" title=" Then Accenture Testing expects to have sent your message to your friend with the subject Automation of tests (completed): <span class='success-color'>SUCCESS</span>" width="2400"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.64</span>
+</div>
+</body>
+</html>
